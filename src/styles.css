@@ -54,6 +54,16 @@ div {
     cursor: pointer;
 }
 
+#footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: wheat;
+}
+
 @media only screen and (max-width: 850px) {
     .animals {
         margin-top: 200px;

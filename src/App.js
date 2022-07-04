@@ -49,6 +49,9 @@ function App() {
       <div className='animals'>
         {images}
       </div>
+      <div id="footer">
+        Created in React based on a Codecademy exercise.
+      </div>
     </div>
   );
 }
