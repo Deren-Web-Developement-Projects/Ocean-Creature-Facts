@@ -28,6 +28,10 @@ for(let animal in animals) {
   );
 };
 
+function ClearFactDisplay() {
+  document.getElementById('fact').innerHTML = "";
+}
+
 function displayFact(e) {
   const selectedAnimal = e.target.alt;
   const animalInfo = animals[selectedAnimal];
@@ -39,7 +43,7 @@ function displayFact(e) {
 function App() {
   return (
     <div>
-    <h1>{title || 'Click an animal for a fun fact'}</h1>
+    <h1 onClick={ClearFactDisplay}>{title || 'Click an animal for a fun fact'}</h1>
       {showBackground && background}
       <p id='fact'></p>
       <div className='animals'>
