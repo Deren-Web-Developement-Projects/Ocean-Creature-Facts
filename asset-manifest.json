@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ocean-creature-facts/static/css/main.ae151be0.css",
+    "main.js": "/ocean-creature-facts/static/js/main.4aa94df3.js",
+    "index.html": "/ocean-creature-facts/index.html",
+    "main.ae151be0.css.map": "/ocean-creature-facts/static/css/main.ae151be0.css.map",
+    "main.4aa94df3.js.map": "/ocean-creature-facts/static/js/main.4aa94df3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae151be0.css",
+    "static/js/main.4aa94df3.js"
+  ]
+}
